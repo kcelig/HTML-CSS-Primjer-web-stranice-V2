@@ -1,0 +1,313 @@
+
+/* --------------UOBIČAJENI ELEMENTI----------------------------*/
+
+*{
+	font-family: 'PT Sans', arial, sans-serif;
+	color:#000000;
+	margin:0px;
+	padding:0px;
+}
+
+html, body {
+	background-image:url(slike/pozadina.png);
+}
+
+h1{
+	font-family: 'Droid Serif', arial, sans-serif;
+	font-size:1.6em;
+	font-size:1.6em;
+	line-height:100%;
+	margin-top:.2em;
+	margin-bottom:.1em;
+	padding-bottom: 10px;
+}
+
+h2{
+	font-family: 'PT Sans', arial, sans-serif;
+	font-variant: small-caps;
+	font-size:1.2em;
+	line-height:140%;
+	font-weight:normal;
+	text-align:left;
+	padding-right:1.2em;
+	padding-left: 20px;
+}
+
+h3{
+	font-family: 'Droid Serif', arial, sans-serif;
+	font-size:0.8em;
+	text-align:left;
+	font-weight: normal;
+	padding-top:1em;
+}
+
+#navigacija ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+#navigacija li {
+    display: inline;
+}
+
+
+/* --------------OMOTAČ----------------------------*/
+
+
+.container_12 {
+	background-color:#eeece2;
+}
+
+
+/* --------------ZAGLAVLJE, LOGOTIP I NAVIGACIJA----------------------------*/
+
+
+#zaglavlje {
+	width:960px;
+	height:80px;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #171516;
+	border-bottom-width:1px;
+	border-bottom-color:#000;
+	border-bottom-style:solid;
+}
+
+#logotip {
+	float:left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#navigacija {
+	float:right;
+	margin-top:50px;
+	margin-right: -200px;
+}
+
+#navigacija a:link {
+	text-decoration:none;
+	color:#c72358;
+	margin: 0px 10px 0px 10px;
+}
+
+#navigacija a:visited {
+	text-decoration:underline;
+	color:#c8c3bf;
+	margin: 0px 10px 0px 10px;
+}
+
+#navigacija a:hover {
+	text-decoration:none;
+	color:#00e690;	
+	margin: 0px 10px 0px 10px;
+}
+
+
+/* --------------BANNER----------------------------*/
+
+
+#banner {
+	width:960px;
+	float:left;
+	margin-left: 0;
+	margin-right: 0;
+	border-bottom-width:5px;
+	border-bottom-color:#c8c3bf;
+	border-bottom-style:solid;
+	border-top-width:5px;
+	border-top-color:#c8c3bf;
+	border-top-style:solid;
+}
+
+
+/* --------------SADRŽAJ. LIJEVI I DESNI STUPAC----------------------------*/
+
+#sadrzaj {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#lijevi {
+
+	width:540px;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
+	background-color:#FFF;
+	padding-bottom: 80px;
+	border-right-width:1px;
+	border-right-color:#c8c3bf;
+	border-right-style:dashed;	 
+}
+#lijevi p {
+
+	font-size:1.0em;
+	line-height:150%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-bottom-width:1px;
+	border-bottom-color:#c8c3bf;
+	border-bottom-style:dashed;
+	padding-bottom: 20px;
+}
+
+#slika_post { 
+    margin: 0px; 
+    height: auto;
+	border:5px solid #BDC6C9;
+}
+		
+#desni {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width:280px;
+	float:left;
+	background-color:#eeece2;
+}
+
+#desni a {
+	padding-bottom: 20px;
+}
+
+
+
+ul#img-list {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  
+}
+
+ul#img-list li {
+  display: inline-block;
+  height: 120px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 220px;
+
+}
+
+span#text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 220px;
+  
+
+}
+
+span#text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+span#text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 220px;
+  opacity: 0;
+}
+
+ul#img-list li:hover span#text-content {
+  opacity: 1;
+}
+
+span#text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 220px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+/* fade out
+
+#link_slika {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+#link_slika:hover {
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+} 
+
+
+*/
+
+#banner img {
+	-webkit-transition: all 1s ease-in-out;
+	 -moz-transition: all 1s ease-in-out;
+  	-ms-transition: all 1s ease-in-out;
+  	-o-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
+}
+
+#swap_image1, #banner:hover #swap_image2 {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;	
+}
+
+#banner:hover #swap_image1, #swap_image2 {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;	
+}
+
+
+/* --------------PODNOŽJE----------------------------*/
+
+#podnozje {
+    margin:0 auto;
+    width:960px;
+    height:80px;
+    background-color: #171516;
+
+}
+#podnozje p  {
+	margin-top: 30px;
+	font-size: 12px;
+	color: #fff;
+	padding-left: 20px;
+}
+
+
+
+
+
+
+
+

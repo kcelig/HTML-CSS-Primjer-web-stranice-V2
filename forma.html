@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Kontakt</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<form action="posta.php" method="get">
+			<fieldset>
+				<legend>Detalji o Vama:</legend>
+				<label>Naziv:   <input type="text" name="ime" size="30" maxlength="100"></label><br />
+				<label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+			</fieldset><br />
+			<fieldset>
+				<legend>Vaše mišljenje:</legend>
+				<p>
+					<label>Kako ste čuli za naš web-site?</label>
+					<select name="odabir">
+						<option value="google">Google</option>
+						<option value="prijatelj">Od prijatelja</option>
+						<option value="oglas">Preko oglasa</option>
+						<option value="ostalo">Drugi izvori</option>
+					</select>
+				</p>
+				<p>
+					Hoćete li nas opet posjetito?<br />
+					<label><input type="radio" name="odluka" value="da" /> Hoću</label>
+					<label><input type="radio" name="odluka" value="ne" /> Neću</label>
+					<label><input type="radio" name="odluka" value="mozda" /> Možda</label>
+				</p>
+				<p>
+					<label >Komentari:</label><br />
+					<textarea rows="4" cols="40"></textarea>
+				</p>
+				<label><input type="checkbox" name="pretplata" checked="checked" /> Prijavi me za primanje novih obavijesti</label><br />
+				<input type="submit" value="Pošalji mišljenje" />
+			</fieldset>
+		</form>
+	</body>
+</html>
